@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.square
+{
+    position: relative;
+    top: -150px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square span
+{
+    position: absolute;
+    inset: 0;
+    border: 2px solid #333;
+    opacity: 0.5;
+}
+.square span:nth-child(1)
+{
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(2)
+{
+    border-radius: 1% 99% 1% 99% / 1% 99% 1% 99%;
+    animation: animateSquare 4s linear infinite;
+}
+
+.square span:nth-child(3)
+{
+    border-radius: 2% 98% 2% 98% / 2% 98% 2% 98%;
+    animation: animateSquare2 10s linear infinite;
+}
+.square span:nth-child(4)
+{
+    border-radius: 3% 97% 3% 97% / 3% 97% 3% 97%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(5)
+{
+    border-radius: 4% 96% 4% 96% / 4% 96% 4% 96%;
+    animation: animateSquare 4s linear infinite;
+}
+.square span:nth-child(6)
+{
+    border-radius: 5% 95% 5 95% / 5% 95% 5% 95%;
+    animation: animateSquare2 10s linear infinite;
+}
+.square span:nth-child(7)
+{
+    border-radius: 6% 94% 6% 94% / 6% 94% 6% 94%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(8)
+{
+    border-radius: 7% 93% 7% 93% / 7% 93% 7% 93%;
+    animation: animateSquare 4s linear infinite;
+}
+
+.square span:nth-child(9)
+{
+    border-radius: 8% 92% 8% 92% / 8% 92% 8% 92%;
+    animation: animateSquare2 10s linear infinite;
+}
+.square span:nth-child(10)
+{
+    border-radius: 9% 91% 9% 91% / 9% 91% 9% 91%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(11)
+{
+    border-radius: 10% 90% 10% 90% / 10% 90% 10% 90%;
+    animation: animateSquare 4s linear infinite;
+}
+
+.square span:nth-child(12)
+{
+    border-radius: 11% 89% 11% 89% / 11% 89% 11% 89%;
+    animation: animateSquare2 10s linear infinite;
+}
+.square span:nth-child(13)
+{
+    border-radius: 12% 88% 12% 88% / 12% 88% 12% 88%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(14)
+{
+    border-radius: 13% 87% 13% 87% / 13% 87% 13% 87%;
+    animation: animateSquare 4s linear infinite;
+}
+
+.square span:nth-child(15)
+{
+    border-radius: 14% 86% 14% 86% / 14% 86% 14% 86%;
+    animation: animateSquare2 10s linear infinite;
+}
+.square span:nth-child(16)
+{
+    border-radius: 15% 85% 15% 85% / 15% 85% 15% 85%;
+    animation: animateSquare 6s linear infinite;
+}
+.square span:nth-child(17)
+{
+    border-radius: 16% 84% 16% 84% / 16% 84% 16% 84%;
+    animation: animateSquare 4s linear infinite;
+}
+
+.square span:nth-child(18)
+{
+    border-radius: 17% 83% 17% 83% / 17% 83% 17% 83%;
+    animation: animateSquare2 10s linear infinite;
+}
+@keyframes animateSquare
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+@keyframes animateSquare2
+{
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
